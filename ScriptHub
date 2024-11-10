@@ -14018,7 +14018,7 @@ loadstring(game:HttpGet("https://you.whimper.xyz/arc"))()
 local Button = FischTab:CreateButton({
    Name = "InfiniteWare",
    Callback = function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitler69/InfiniteWare/refs/heads/main/Launcher",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitler69/InfiniteWare/refs/heads/main/Launcher",true))()
    end,
 })
 
