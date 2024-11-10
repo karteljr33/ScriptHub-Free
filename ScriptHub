@@ -14022,3 +14022,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitler69/InfiniteWare
    end,
 })
 
+local Button = FischTab:CreateButton({
+   Name = "Soft.cc Menu",
+   Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/soft-cc/Soft.cc/refs/heads/main/scripts/FISCH.lua')))()
+   end,
+})
