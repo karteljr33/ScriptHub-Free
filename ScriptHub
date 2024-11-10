@@ -13997,3 +13997,28 @@ local Button = FischTab:CreateButton({
  loadstring(game:HttpGet("https://pastebin.com/raw/3TB9m8us"))()
    end,
 })
+
+local Button = FischTab:CreateButton({
+   Name = "RBscr1ptsHub",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/ago106/ScriptsRoblox/refs/heads/main/NewKey'))()
+   end,
+})
+
+local KingLegacyTab = Window:CreateTab("🎃| King Legacy", nil) -- Title, Image
+local Section = KingLegacyTab:CreateSection("King Legacy")
+
+local Button = KingLegacyTab:CreateButton({
+   Name = "Arc Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://you.whimper.xyz/arc"))()
+   end,
+})
+
+local Button = FischTab:CreateButton({
+   Name = "InfiniteWare",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitler69/InfiniteWare/refs/heads/main/Launcher",true))()
+   end,
+})
+
