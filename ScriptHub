@@ -13980,3 +13980,13 @@ local Button = DannysWorldTab:CreateButton({
 loadstring(game:HttpGet("https://pastebin.com/raw/Y7uh3UZf"))();
    end,
 })
+
+local ScpRoleplayTab = Window:CreateTab("☢| Scp: Roleplay", nil) -- Title, Image
+local Section = ScpRoleplayTab:CreateSection("Scp: Roleplay")
+
+local Button = ScpRoleplayTab:CreateButton({
+   Name = "NullZen Hub",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/axleoislost/NullZen/main/Scp-Roleplay'))()
+   end,
+})
