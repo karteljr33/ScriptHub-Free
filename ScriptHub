@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "☣️ScriptHub☣️ | 🛠In Deveolpment By Skrilla🛠",
-   LoadingTitle = "☣️ScriptHub☣️ | ✔The #1 Muti Script Cheat✔",
+   Name = "☣️ScriptHubV1☣️ | 🛠In Deveolpment By Skrilla🛠",
+   LoadingTitle = "☣️ScriptHubV1☣️ | ✔The #1 Muti Script Cheat✔",
    LoadingSubtitle = "Made By Skrillaa",
    Theme = "Green", -- DarkBlue, Green, Light, Default - more coming soon!
 
