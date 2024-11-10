@@ -679,7 +679,6 @@ end
    end,
 })
 
-
 local Button = MainTab:CreateButton({
    Name = "God Mode",
    local LocalPlayer = game:GetService(“Players”).LocalPlayer
@@ -697,7 +696,6 @@ Invincibility(LocalPlayer)
 end
    end,
 })
-
 
 local Slider = MainTab:CreateSlider({
    Name = "WalkSpeed Adjust",
