@@ -679,7 +679,6 @@ end
    end,
 })
 
-
 local Slider = MainTab:CreateSlider({
    Name = "WalkSpeed Adjust",
    Range = {0, 300},
@@ -693,7 +692,7 @@ local Slider = MainTab:CreateSlider({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Infinite Yield",
+   Name = "Infinite Yield (To Use GodMode Use /god In Yield)",
    Callback = function()
   --[[
 Created by Edge
@@ -14028,3 +14027,4 @@ local Button = FischTab:CreateButton({
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/soft-cc/Soft.cc/refs/heads/main/scripts/FISCH.lua')))()
    end,
 })
+
