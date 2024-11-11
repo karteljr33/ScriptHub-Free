@@ -14028,3 +14028,19 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/soft-cc/Soft.cc/refs
    end,
 })
 
+local Button = ArsenalTab:CreateButton({
+   Name = "Vanta Menu",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitDevsOffical/Vanta/refs/heads/main/V3/Arsenal/V3.0.0A"))()
+   end,
+})
+
+local PetsGOTab = Window:CreateTab("🐶| Pets GO", nil) -- Title, Image
+local Section = PetsGOTab:CreateSection("Pets GO")
+
+local Button = PetsGOTab:CreateButton({
+   Name = "AtherHub",
+   Callback = function()
+  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))()
+   end,
+})
